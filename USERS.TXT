@@ -1,0 +1,4 @@
+The number of users is 32
+and the number of processes is 194
+the number of disks are 14
+the number of commands stored in the bash history are: 511 /root/.bash_history
