@@ -24,13 +24,24 @@ done
 
 decompress() {
 
-	for filename in `pwd`
+#	for filename in `pwd`
 
-	do
+#	do
 
 		echo -n "`unzip amar.zip` "
+#	done
 }
 
+tarcompress() {
+	for filename in `pwd`
+	do
+		echo -n "`tar cvf amar.tar $filename`"
+	done
+}
 
-compress
-decompress
+tardecompress(){
+	echo -n "`tar xvf amar.tar`"
+}
+
+tarcompress
+tardecompress
