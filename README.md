@@ -1,4 +1,4 @@
-# Project Title
+# Bash Scripts
 
 This Repository contains simple Bash Scripts for automating certain task on linux machines
 
